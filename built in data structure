@@ -1,0 +1,31 @@
+lists --->
+ like array but arrays can hold elements of same data type where as 
+list can hold elements of different data type far more flexible thn array 
+ordered seq. of items 
+elements are bounded by square brackets 
+and seperate by commmas
+we can index these elements and can access a particular element
+ a = [1, 4.5, "apple" ]
+can alter value, 
+lists are mutable
+
+
+tuple ---->
+just like list
+bounded by paranthesis
+same as lists
+immutable, can't alter value
+
+
+set---->
+unordered collection of unique items
+bounded by curly braces
+it only prints unique values won't condsider duplicate ones
+no indexing
+
+
+dictionary---->
+dictionary is unordered collection of key values
+enclosed by curly braces
+marks = {"math": 99, "eng":56}
+print(marks["math"])
